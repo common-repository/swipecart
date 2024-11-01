@@ -1,0 +1,4 @@
+.loader{border:16px solid #f3f3f3;border-radius:50%;border-top:16px solid #3498db;min-width:90px;min-height:90px;-webkit-animation:spin 2s linear infinite;animation:spin 2s linear infinite;margin-bottom:10px}
+.loader-circle{left:0;right:0;top:50%;bottom:0;position:fixed;margin:auto;text-align:center;display:flex;align-items:center;flex-direction:column;margin:auto}
+@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg)}}
+@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
